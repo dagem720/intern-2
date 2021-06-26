@@ -39,7 +39,7 @@
         
           
          
-          to="/typography"
+          to="/cources"
           link>
           <v-list-item-action>
             <v-icon
@@ -61,7 +61,7 @@
         
           
          
-          to="/charts"
+          to="/schedule"
           link>
           <v-list-item-action>
             <v-icon
@@ -84,7 +84,7 @@
         
           
          
-          to="/tables"
+          to="/payment"
           link>
           <v-list-item-action>
             <v-icon
@@ -106,7 +106,7 @@
         
           
           
-          to="/"
+          to="/support"
           link>
           <v-list-item-action>
             <v-icon
@@ -126,7 +126,28 @@
       
     
    <v-list v-if="student.type=='admin'">
-     
+     <v-list-item
+      
+          color="primary"
+        
+          
+         
+          to="/admindashboard"
+          link>
+          <v-list-item-action>
+            <v-icon
+              size="28"
+             
+            > mdi-home </v-icon>
+          </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title
+                class="grey--text"
+                link>
+                Admin Dashboard
+              </v-list-item-title>
+            </v-list-item-content>
+        </v-list-item>
         <v-list-item
       
           color="primary"

@@ -38,7 +38,7 @@ export default new Router({
         component: Dashboard,
       },
       {
-        path: 'typography',
+        path: 'cources',
         name: 'Typography',
         component: Typography
       },
@@ -63,7 +63,7 @@ export default new Router({
         component: addstudent
       },
       {
-        path: 'tables',
+        path: 'payment',
         name: 'Tables',
         component: Tables
       },
@@ -78,7 +78,7 @@ export default new Router({
         component: Icons
       },
       {
-        path: 'charts',
+        path: 'schedule',
         name: 'Charts',
         component: Charts
       },
