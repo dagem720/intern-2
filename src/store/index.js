@@ -84,7 +84,8 @@ export default new Vuex.Store({
             fname:obj.fname,
             lname:obj.lname,
             dept:obj.dept,
-            studentid:obj.studentid
+            studentid:obj.studentid,
+            type:obj.type
           }
           
           
@@ -113,6 +114,7 @@ fetchStudents({commit})
         fname:obj[key].fname,
         lname:obj[key].lname,
         dept:obj[key].dept,
+        type:obj[key].type
       }
       
       )

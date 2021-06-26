@@ -14,6 +14,7 @@ import Maps from '@/pages/Maps/Google'
 import Error from "@/pages/Error/Error";
 import Login from "@/pages/Login/Login";
 import admindashboard from '@/pages/adminDashboard/adminDashboard';
+import financedashboard from '@/pages/financedashboard/financedashboard';
 import allstudents from '@/pages/adminDashboard/Allstudents';
 import addstudent from  '@/pages/adminDashboard/addstudent';
 Vue.use(Router);
@@ -32,7 +33,7 @@ export default new Router({
     component: Layout,
     children: [
       {
-        path: 'dashboard',
+        path: 'studentDashboard',
         name: 'Dashboard',
         component: Dashboard,
       },
@@ -45,6 +46,11 @@ export default new Router({
         path: 'admindashboard',
         name: 'admindashboard',
         component: admindashboard
+      },
+      {
+        path: 'financedashboard',
+        name: 'financedashboard',
+        component: financedashboard
       },
       {
         path: 'allstudents',

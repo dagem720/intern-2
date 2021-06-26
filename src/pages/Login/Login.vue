@@ -118,8 +118,14 @@
                    this.$router.push('/admindashboard')
                   this.$store.dispatch('fetchStudents')
                  }
+                 else if(this.email=='finance@aastu.edu.et')
+                 {
+                 this.$router.push('/financedashboard')
+                 this.$store.dispatch('fetchStudents')
+                 }
+                 
                else
-                  this.$router.push('/dashboard')
+                  this.$router.push('/studentDashboard')
               }
           }
       },
