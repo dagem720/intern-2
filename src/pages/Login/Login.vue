@@ -118,9 +118,9 @@
                    this.$router.push('/admindashboard')
                   this.$store.dispatch('fetchStudents')
                  }
-                 else if(this.email=='finance@aastu.edu.et')
+                 else if(this.email=='registrar@aastu.edu.et')
                  {
-                 this.$router.push('/financedashboard')
+                 this.$router.push('/registrardashboard')
                  this.$store.dispatch('fetchStudents')
                  }
                  

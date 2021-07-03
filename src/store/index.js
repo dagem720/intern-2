@@ -108,7 +108,7 @@ fetchStudents({commit})
     const obj = data.val()
     for (let key in obj) {
       
-        
+        if(obj[key].studentid!=null){
       students.push({
         studentid: obj[key].studentid,
         fname:obj[key].fname,
@@ -117,7 +117,7 @@ fetchStudents({commit})
         type:obj[key].type
       }
       
-      )
+      )}
       
         
        

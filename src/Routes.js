@@ -17,6 +17,7 @@ import admindashboard from '@/pages/adminDashboard/adminDashboard';
 import financedashboard from '@/pages/financedashboard/financedashboard';
 import allstudents from '@/pages/adminDashboard/Allstudents';
 import addstudent from  '@/pages/adminDashboard/addstudent';
+import sendpayment from '@/pages/sendpayment/sendpayment'
 Vue.use(Router);
 
 export default new Router({
@@ -48,7 +49,7 @@ export default new Router({
         component: admindashboard
       },
       {
-        path: 'financedashboard',
+        path: 'registrardashboard',
         name: 'financedashboard',
         component: financedashboard
       },
@@ -56,6 +57,11 @@ export default new Router({
         path: 'allstudents',
         name: 'allstudents',
         component: allstudents
+      },
+      {
+        path: 'sendpayment',
+        name: 'sendpayment',
+        component: sendpayment
       },
       {
         path: 'addstudent',

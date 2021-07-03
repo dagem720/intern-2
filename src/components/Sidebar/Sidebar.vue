@@ -77,7 +77,72 @@
               </v-list-item-title>
             </v-list-item-content>
         </v-list-item>
+        <v-list-item
+       
+          color="primary"
         
+          
+         
+          to="/schedul"
+          link>
+          <v-list-item-action>
+            <v-icon
+              size="28"
+             
+            >mdi-book-variant-multiple</v-icon>
+          </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title
+                class="grey--text"
+                link>
+                Grade
+              </v-list-item-title>
+            </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+       
+          color="primary"
+        
+          
+         
+          to="/schedu"
+          link>
+          <v-list-item-action>
+            <v-icon
+              size="28"
+             
+            >mdi-book-variant-multiple</v-icon>
+          </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title
+                class="grey--text"
+                link>
+                issue
+              </v-list-item-title>
+            </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+       
+          color="primary"
+        
+          
+         
+          to="/sched"
+          link>
+          <v-list-item-action>
+            <v-icon
+              size="28"
+             
+            >mdi-book-variant-multiple</v-icon>
+          </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title
+                class="grey--text"
+                link>
+                E-Learning
+              </v-list-item-title>
+            </v-list-item-content>
+        </v-list-item>
         <v-list-item
        
           color="primary"
@@ -193,8 +258,30 @@
             </v-list-item-content>
         </v-list-item>
    </v-list>
-   <v-list v-if="student.type=='finance'">
+   <v-list v-if="student.type=='registrar'">
      
+        <v-list-item
+      
+          color="primary"
+        
+          
+         
+          to="/allstudents"
+          link>
+          <v-list-item-action>
+            <v-icon
+              size="28"
+             
+            >  mdi-account-cowboy-hat  </v-icon>
+          </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title
+                class="grey--text"
+                link>
+                All Students
+              </v-list-item-title>
+            </v-list-item-content>
+        </v-list-item>
         <v-list-item
       
           color="primary"
@@ -213,7 +300,51 @@
               <v-list-item-title
                 class="grey--text"
                 link>
-                All Students
+               Cources
+              </v-list-item-title>
+            </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+      
+          color="primary"
+        
+          
+         
+          to="/allstudents"
+          link>
+          <v-list-item-action>
+            <v-icon
+              size="28"
+             
+            > mdi-forum </v-icon>
+          </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title
+                class="grey--text"
+                link>
+                Grade
+              </v-list-item-title>
+            </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+      
+          color="primary"
+        
+          
+         
+          to="/allstudents"
+          link>
+          <v-list-item-action>
+            <v-icon
+              size="28"
+             
+            > mdi-grid-large </v-icon>
+          </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title
+                class="grey--text"
+                link>
+                Department
               </v-list-item-title>
             </v-list-item-content>
         </v-list-item>
@@ -229,7 +360,7 @@
             <v-icon
               size="28"
              
-            > mdi-home </v-icon>
+            > mdi-format-size </v-icon>
           </v-list-item-action>
             <v-list-item-content>
               <v-list-item-title
