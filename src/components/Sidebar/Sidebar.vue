@@ -61,6 +61,28 @@
         
           
          
+          to="/cources"
+          link>
+          <v-list-item-action>
+            <v-icon
+              size="28"
+             
+            >mdi-format-size</v-icon>
+          </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title
+                class="grey--text"
+                link>
+                Message
+              </v-list-item-title>
+            </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+       
+          color="primary"
+        
+          
+         
           to="/schedule"
           link>
           <v-list-item-action>
@@ -165,6 +187,7 @@
               </v-list-item-title>
             </v-list-item-content>
         </v-list-item>
+        
         <v-list-item
        
           color="primary"
@@ -232,6 +255,28 @@
                 class="grey--text"
                 link>
                 All Students
+              </v-list-item-title>
+            </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+       
+          color="primary"
+        
+          
+         
+          to="/cources"
+          link>
+          <v-list-item-action>
+            <v-icon
+              size="28"
+             
+            >mdi-format-size</v-icon>
+          </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title
+                class="grey--text"
+                link>
+                Message
               </v-list-item-title>
             </v-list-item-content>
         </v-list-item>
@@ -323,6 +368,28 @@
                 class="grey--text"
                 link>
                 Grade
+              </v-list-item-title>
+            </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+       
+          color="primary"
+        
+          
+         
+          to="/cources"
+          link>
+          <v-list-item-action>
+            <v-icon
+              size="28"
+             
+            >mdi-format-size</v-icon>
+          </v-list-item-action>
+            <v-list-item-content>
+              <v-list-item-title
+                class="grey--text"
+                link>
+                Message
               </v-list-item-title>
             </v-list-item-content>
         </v-list-item>
